@@ -1,0 +1,3 @@
+rootProject.name='ProjectDemo'
+include ':app'
+include ':flycotablayout'

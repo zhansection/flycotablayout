@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zhanke.demo">
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".table.ui.SimpleHomeActivity"
+            android:screenOrientation="fullSensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".table.ui.CommonTabActivity"
+            android:screenOrientation="fullSensor"/>
+        <activity android:name=".table.ui.SegmentTabActivity"
+            android:screenOrientation="fullSensor"/>
+<!--        <activity android:name=".table.ui.SimpleHomeActivity"-->
+<!--       />-->
+        <activity android:name=".table.ui.SlidingTabActivity"
+            android:screenOrientation="fullSensor"/>
+    </application>
+
+</manifest>
