@@ -11,6 +11,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity"
+            android:screenOrientation="fullSensor">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+
+        </activity>
+
         <activity android:name=".table.ui.SimpleHomeActivity"
             android:screenOrientation="fullSensor">
             <intent-filter>
@@ -23,10 +34,9 @@
             android:screenOrientation="fullSensor"/>
         <activity android:name=".table.ui.SegmentTabActivity"
             android:screenOrientation="fullSensor"/>
-<!--        <activity android:name=".table.ui.SimpleHomeActivity"-->
-<!--       />-->
         <activity android:name=".table.ui.SlidingTabActivity"
             android:screenOrientation="fullSensor"/>
+
     </application>
 
 </manifest>
