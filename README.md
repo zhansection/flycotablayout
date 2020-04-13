@@ -30,21 +30,18 @@
 * SegmentTabLayout
 
 ## Demo
-![](https://github.com/H07000223/FlycoTabLayout/blob/master/preview_1.gif)
+![](https://github.com/zhansection/flycotablayout/blob/master/preview_1.gif)
 
-![](https://github.com/H07000223/FlycoTabLayout/blob/master/preview_2.gif)
+![](https://github.com/zhansection/flycotablayout/blob/master/preview_2.gif)
 
-![](https://github.com/H07000223/FlycoTabLayout/blob/master/preview_3.gif)
+![](https://github.com/zhansection/flycotablayout/blob/master/preview_3.gif)
 
 
 ## Gradle
 
 ```groovy
 dependencies{
-    compile 'com.android.support:support-v4:23.1.1'
-    compile 'com.nineoldandroids:library:2.4.0'
-    compile 'com.flyco.roundview:FlycoRoundView_Lib:1.1.2@aar'
-    compile 'com.flyco.tablayout:FlycoTabLayout_Lib:1.5.0@aar'
+    implementation 'com.github.zhansection:flycotablayout:1.0.2'
 }
 
 ## Attributes
